@@ -1,7 +1,7 @@
-# Distributed-Operating-System-Projects
+# Distributed Operating System Projects
 
 ## Project-1:
-#### 1. Problem definition
+### 1. Problem definition
 
 An interesting problem in arithmetic with deep implications toelliptic curve
 theoryis the problem of findingperfect squares that are sums of consecutive
