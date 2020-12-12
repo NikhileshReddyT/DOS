@@ -1,4 +1,4 @@
-# Distributed Operating System Projects
+# Distributed Operating System
 
 ## Project-1:
 ### 1. Problem definition
