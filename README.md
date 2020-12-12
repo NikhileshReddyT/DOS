@@ -31,6 +31,7 @@ is itself a perfect square (square of an integer).
 
 Output: Print, on independent lines, the first number in the sequence for each
 solution.
+
 Example 1:
 ```
 dotnet fsi proj1.fsx 3 2
