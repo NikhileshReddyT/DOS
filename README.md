@@ -38,9 +38,7 @@ dotnet fsi proj1.fsx 3 2
 3
 ```
 indicates that sequences of length 2 with start point between 1 and 3 contain
-3,4 as a solution. 
-
-Since 3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup>.
+3,4 as a solution since 3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup>.
 
 Example 1:
 ```
