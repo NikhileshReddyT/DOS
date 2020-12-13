@@ -38,7 +38,9 @@ dotnet fsi proj1.fsx 3 2
 3
 ```
 indicates that sequences of length 2 with start point between 1 and 3 contain
-3,4 as a solution since 3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup>.
+3,4 as a solution. 
+
+Since 3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup>.
 
 Example 1:
 ```
@@ -48,7 +50,7 @@ dotnet fsi proj1.fsx 40 24
 indicates that sequences of length 24 with start point between 1 and 40 contain
 1,2,...,24 as a solution since 1<sup>2</sup> + 2<sup>2</sup> +...+ 24<sup>2</sup> = 70<sup>2</sup>.
 
-Actor modeling: In this project you have to use exclusively the actor facility
+**Actor modeling:** In this project you have to use exclusively the actor facility
 in F# (projects that do not use multiple actors or use any other form
 of parallelism will receive no credit). A model similar to the one indicated
 in class for the problem of adding up a lot of numbers can be used here, in
