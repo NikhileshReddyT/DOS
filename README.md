@@ -183,7 +183,7 @@ Where numNodes is the number of peers to be created in the peer to peer system a
 - What is working
 - What is the largest network you managed to deal with
 
-## Project-4: Twitter (Part-1)
+## Project-4: Twitter
 
 In this project, you have to implement a Twitter Clone and a client tester/simulator. As of now, Tweeter does not seem to support a WebSocket API. As part I of this project, you need to build an engine that (in part II) will be paired up with WebSockets to provide full functionality. Specific things you have to do are:
 
@@ -207,21 +207,3 @@ In this project, you have to implement a Twitter Clone and a client tester/simul
 - The client part (send/receive tweets) and the engine (distribute tweets) have to be in separate processes. Preferably, you use multiple independent client processes that simulate thousands of clients and a single engine process. 
 - You need to measure various aspects of your simulator and report performance.
 - More detail in lecture as the project progresses.
-
-## Project-4: Twitter (Part 2)
-
-Use WebSharper web framework to implement a WebSocket interface to your part I implementation. That means that, even though the F# implementation (Part I) you could use AKKA messaging to allow client-server implementation, you now need to design and use a proper WebSocket interface. Specifically:
-
-- You need to design a JSON based API that represents all messages and their replies (including errors)
-- You need to re-write parts of your engine using WebSharper to implement the WebSocket interface
-- You need to re-write parts of your client to use WebSockets.
-
-Upload a demo video (~5 minutes), a youtube link within the README or an mp4 file to explain the following:
-
-1. How to run your code? Create an account, search, etc.
-2. Show the implementation of
-   1. A JSON based API that represents all messages and their replies (including errors).
-   1. Implementation of the WebSocket interface.
-   1. Client to use WebSockets. 
-
-Show each part in your video. You can highlight/point to your code in the video, and explain in README.
